@@ -1,0 +1,105 @@
+#content {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+	align-items: flex-start;
+}
+
+.container {
+	position: relative;
+    width: 100%;
+   	height: 85%;
+    margin: 30px;
+}
+
+.container h1 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column-reverse;
+	float: left;
+	width: 100%;
+	height: 100%;
+	border: 5px solid rgba(20, 20, 20, 0.9);
+	border-radius: var(--border-radius);
+	padding: 20px;
+	background: rgba(1, 1, 1, 0.2);
+	color: rgb(151, 151, 151);
+	box-sizing: border-box;
+	overflow-y: scroll;
+	
+}
+
+#write_box {
+	width: 100%;
+	height: 100%;
+	border: none;
+	resize: none;
+	background-color: transparent;
+	font-size: 23px;
+	color: rgb(151, 151, 151);
+	font-size: medium;
+	outline: none;
+	margin-top: 10px;
+}
+
+#write {
+	flex-direction: column;
+}
+
+#write form {
+	margin-bottom: 10px;
+}
+
+#write hr {
+	border: none;
+	border-top: 5px solid rgba(20, 20, 20, 0.9);
+}
+
+#messages p {
+	margin: 5px;
+}
+
+#users {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: black;
+	border: none;
+	padding: 5px;
+	margin: 0 5px;
+	background: linear-gradient(144deg, rgba(99,99,99,1) 0%, rgba(177,177,177,1) 100%);
+	border-radius: 25px;
+}
+
+#sendebtn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: black;
+	border: none;
+	padding: 5px;
+	background: linear-gradient(144deg, rgba(99,99,99,1) 0%, rgba(177,177,177,1) 100%);
+	border-radius: 25px;
+
+}
+
+#users:hover {
+	background: linear-gradient(144deg, rgba(2,0,36,0.5) 0%, rgba(70,70,75,0.5) 100%);
+	cursor: pointer;
+}
+
+#sendebtn:hover {
+	background: linear-gradient(144deg, rgba(2,0,36,0.5) 0%, rgba(70,70,75,0.5) 100%);
+	cursor: pointer;
+}
+
+#sendform {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

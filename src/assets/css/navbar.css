@@ -1,0 +1,23 @@
+#header_div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(44, 44, 44);
+	color: white;
+	height: 50px;
+}
+
+#logo {
+	margin-left: 20px;
+}
+
+#navbar {
+	display: flex;
+	margin-right: 20px;
+}
+
+.nav_item {
+	margin: 5px;
+	text-decoration: none;
+	color: white !important;
+}
